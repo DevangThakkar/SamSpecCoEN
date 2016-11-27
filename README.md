@@ -37,7 +37,7 @@ Requirements
 ============
 Python packages
 ---------------
-* hd5py  
+* h5py  
 * matplotlib  
 * numpy  
 * memory_profiler (optional, for profiling memory usage)
