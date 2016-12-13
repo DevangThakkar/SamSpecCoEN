@@ -80,7 +80,7 @@ def main():
 
     # Save data into .dat file
     np.savetxt(datafile, D, fmt='%s', comments='',
-               delimiter=" ", header=" ".join(['"%s"' % x for x in gene_names[2:]]))
+               delimiter=" ", header=" ".join(['"%s"' % x for x in gene_names]))
 
     # Read the data as ExpressionDataset
     (affyIDs, patientIDs, exprMatrix, exprs) = mapData.readExpressionData(datafile)
@@ -94,7 +94,7 @@ def main():
     print "Map AffyIDs to Entrez gene IDs"
     map_probe_ids_to_gene_ids = 'NormalisingData/projectX/HG-U133A.na32.annot.csv/HG-U133A.na32.annot.csv'
     map_fname = '%s/HG-U133A.pickle' % res_dir
-    best_map_entrez_affy = mapData.ProbeToGeneID(map_probe_ids_to_gene_ids, ds, map_fname)
+    best_map_entrez_affy = mapData.ProbeToGeneID(map_probe_ids_to_gene_ids, ds)
     best_map_affy_entrez = dict(zip(best_map_entrez_affy.values(), best_map_entrez_affy.keys()))
 
     idx = np.argwhere(np.in1d(ds.geneLabels, best_map_affy_entrez.keys()))[:, 0]
