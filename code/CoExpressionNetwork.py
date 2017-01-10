@@ -311,7 +311,7 @@ class CoExpressionNetwork(object):
 
         for (edge_idx, e) in enumerate(self.edges):
             # Compute sum of node weights:
-            weights[edge_idx, :] = e[0] + e[1]
+            weights[edge_idx, :] = self.expression_data[:,e[0]] + self.expression_data[:,e[1]]
             
         # Save edge weights to file
         np.savetxt(weights_f, weights, fmt='%.5f')
