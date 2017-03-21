@@ -1,6 +1,6 @@
 #!/bin/sh
 
-prefix="outputs_rf/fold"
+prefix="outputs_rf/fold" #to be changed to required directory during execution
 
 for i in {1..10};
 do
