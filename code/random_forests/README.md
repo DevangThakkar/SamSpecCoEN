@@ -26,9 +26,9 @@ The paper of [Wright et al., 2015](https://arxiv.org/pdf/1508.04409.pdf) on rang
 
 More papers on this topic: 
 
-[Hothorn et al., 2012](http://dx.doi.org/10.1198/106186006X133933)
-[Janitza et al., 2013](http://dx.doi.org/10.1186/1471-2105-14-119)
+* [Hothorn et al., 2012](http://dx.doi.org/10.1198/106186006X133933)
+* [Janitza et al., 2013](http://dx.doi.org/10.1186/1471-2105-14-119)
 
 Papers to be seen:
-[Hapfelmeier et al., 2013](http://dx.doi.org/10.1016/j.csda.2012.09.020)
-[Huynh-Thu et al., 2012](https://doi.org/10.1093/bioinformatics/bts238)
+* [Hapfelmeier et al., 2013](http://dx.doi.org/10.1016/j.csda.2012.09.020)
+* [Huynh-Thu et al., 2012](https://doi.org/10.1093/bioinformatics/bts238)
